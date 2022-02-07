@@ -1,1 +1,124 @@
-/* Write your CSS here! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 125%;
+}
+
+@font-face {
+  font-family: "real-world";
+  src: url(fonts/real_world_-_demo-webfont.woff);
+}
+
+h1 {
+  font-family: "real-world";
+  font-weight: normal;
+  font-size: 500%;
+  font-style: normal;
+  padding-top: 25px;
+  text-align: center;
+}
+
+header p {
+  font-size: 200%;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://lh3.googleusercontent.com/oU6XikA8ki1OBzCF42A_4qSsDb2vUaK3kxWKa18XVDlwp84UrWeTHV128P9K81zMr1_9o9_kcwJwvwQ7fYuneHzfPO7CSqV85npeuygVQmU4zRJYzfb0_skKQCGpjEarICVQ3IwR4w=w2400?source=screenshot.guru");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+
+  margin: 8px;
+  display: block;
+}
+
+.bodyContainer {
+  background: rgba(255, 255, 255, 0.7);
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+main {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: auto;
+  color: #458596;
+  text-align: center;
+  padding: 30px;
+}
+
+.bold {
+  padding: 15px;
+}
+
+#separate {
+  padding-top: 15px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#turtle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.descriptionContainer {
+  position: relative;
+  width: 100%;
+  max-width: 5000px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.descriptionContainer:hover .overlay {
+  opacity: 1;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+#mainHeading {
+  color: red;
+}
+
+.funParagraph {
+  color: green;
+}
