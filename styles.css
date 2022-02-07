@@ -1,1 +1,111 @@
-/* Write your CSS here! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 125%;
+}
+
+@font-face {
+  font-family: "real-world";
+  src: url(fonts/real_world_-_demo-webfont.woff);
+}
+
+h1 {
+  font-family: "real-world";
+  font-weight: normal;
+  font-size: 500%;
+  font-style: normal;
+  padding-top: 25px;
+  text-align: center;
+}
+
+header p {
+  font-size: 200%;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+body {
+  background-image: url("/images/2draft/moosa-haleem-8OGJqpNMBGM-unsplash.jpg");
+  background-size: cover;
+  background-color: white;
+  margin: 8px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.7);
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+main {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: auto;
+  color: #458596;
+  text-align: center;
+  padding: 30px;
+}
+
+.bold {
+  padding: 15px;
+}
+
+#separate {
+  padding-top: 15px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#turtle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.descriptionContainer {
+  position: relative;
+  width: 100%;
+  max-width: 5000px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.descriptionContainer:hover .overlay {
+  opacity: 1;
+}
+
+footer {
+  padding-top: 20px;
+}
