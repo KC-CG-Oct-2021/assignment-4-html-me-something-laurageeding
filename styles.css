@@ -36,7 +36,7 @@ body {
   display: block;
 }
 
-.container {
+.bodyContainer {
   background: rgba(255, 255, 255, 0.7);
   width: 70%;
   height: 100%;
