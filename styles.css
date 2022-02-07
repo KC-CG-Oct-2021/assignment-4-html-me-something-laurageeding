@@ -33,6 +33,7 @@ body {
   background-size: cover;
   background-color: white;
   margin: 8px;
+  display: block;
 }
 
 .container {
@@ -108,4 +109,12 @@ img {
 
 footer {
   padding-top: 20px;
+}
+
+#mainHeading {
+  color: red;
+}
+
+.funParagraph {
+  color: green;
 }
